@@ -1,0 +1,11 @@
+{
+  "name": "localspit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The direct, no-BS neighborhood food map.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test \"test/*.test.js\""
+  }
+}
